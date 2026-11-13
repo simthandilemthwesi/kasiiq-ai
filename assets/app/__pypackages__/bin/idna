@@ -1,0 +1,6 @@
+#!/tmp/fletbuild-202ns5jj/project/build/flutter/build/build_python_3.14.10/python/bin/python3
+import sys
+from idna.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
